@@ -26,10 +26,9 @@ import org.opencv.objdetect.CascadeClassifier;
 import org.opencv.objdetect.Objdetect;
 import org.opencv.videoio.VideoCapture;
 
+import com.wwdablu.opencvision.utils.CVisionUtils;
 import com.wwdablu.opencvision.vision.ICapture.CaptureAction;
 import com.wwdablu.opencvision.vision.ICapture.CaptureStatus;
-
-import utils.CVisionUtils;
 
 public class Capture {
 	
