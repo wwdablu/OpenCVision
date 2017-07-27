@@ -70,9 +70,10 @@ mkdir build
 cd build
 cmake -D OPENCV_EXTRA_MODULES_PATH=/Users/wwdablu/Development/OpenCV/contrib/modules -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/Users/wwdablu/Development/OpenCV/build ..
 make -j4
+sudo make install
 ```
 
-Once above commands are executed the OpenCV JAR should be present inside the ```lib``` folder in build folder. There you will find the OpenCV JAR which we can now use for our project.
+Once above commands are executed the OpenCV JAR should be present inside the ```share/opencv/java``` folder in build folder. There you will find the OpenCV JAR which we can now use for our project. It will also contain the dylib which will be mapped to the native library location.
 
 ## Using the user libraries
 You can now add the JAR for your project and define the path to the native objects to the ```build/lib``` folder.
