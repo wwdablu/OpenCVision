@@ -68,7 +68,7 @@ To generate the JAR file from OpenCV, now we need to build the source code. On t
 cd /Users/wwdablu/Development/OpenCV
 mkdir build
 cd build
-cmake -D OPENCV_EXTRA_MODULES_PATH=/Users/wwdablu/Development/OpenCV/contrib/modules -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/Users/wwdablu/Development/OpenCV/build
+cmake -D OPENCV_EXTRA_MODULES_PATH=/Users/wwdablu/Development/OpenCV/contrib/modules -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/Users/wwdablu/Development/OpenCV/build ..
 make -j4
 ```
 
