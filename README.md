@@ -62,6 +62,10 @@ This is again simple. Double click on the DMG and install CMake on the Applicati
 sudo "/Applications/CMake.app/Contents/bin/cmake-gui" --install
 ```
 
+## Small Code Change
+I found an issue that calling release() on VideoCapture class was crashing the program. The solution to the fix has been stated in here.  
+https://github.com/opencv/opencv/issues/7833
+
 ## Generate OpenCV JAR
 To generate the JAR file from OpenCV, now we need to build the source code. On the same terminal window go to the folder where OpenCV source has been extracted. You can follow along with these commands:  
 ```
